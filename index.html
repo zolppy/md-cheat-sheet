@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MD Cheat Sheet</title>
+    <link
+      rel="shortcut icon"
+      href="img/markdown-mark-white.svg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="img/markdown-mark-white.svg" alt="" />
+      <h1>Markdown Cheat Sheet</h1>
+    </header>
+    <main>
+      <section>
+        <h2>Sintaxe Básica</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Elemento</th>
+              <th>Sintaxe Markdown</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Cabeçalhos</td>
+              <td>
+                <p># H1</p>
+                <p>...</p>
+                <p>###### H6</p>
+              </td>
+            </tr>
+            <tr>
+              <td>Negrito</td>
+              <td>**texto negrito**</td>
+            </tr>
+            <tr>
+              <td>Itálico</td>
+              <td>*texto itálico*</td>
+            </tr>
+            <tr>
+              <td>Citação</td>
+              <td>> citação</td>
+            </tr>
+            <tr>
+              <td>Lista Ordenada</td>
+              <td>
+                <p>1. Primeiro item</p>
+                <p>2. Segundo item</p>
+                <p>3. Terceiro item</p>
+              </td>
+            </tr>
+            <tr>
+              <td>Lista não ordenada</td>
+              <td>
+                <p>- Primeiro item</p>
+                <p>- Segundo item</p>
+                <p>- Terceiro item</p>
+              </td>
+            </tr>
+            <tr>
+              <td>Código</td>
+              <td>`código`</td>
+            </tr>
+            <tr>
+              <td>Linha Horizontal</td>
+              <td>---</td>
+            </tr>
+            <tr>
+              <td>Ligação</td>
+              <td>[titulo](https://www.exemplo.com)</td>
+            </tr>
+            <tr>
+              <td>Imagem</td>
+              <td>![texto alternativo](imagem.jpg)</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section>
+        <h2>Sintaxe Extendida</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Elemento</th>
+              <th>Sintaxe Markdown</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Tabela</td>
+              <td>
+                <pre>
+| Sintaxe   | Descrição |
+------------|------------
+| Cabeçalho | Título    |
+| Parágrafo | Texto     |
+                </pre>
+              </td>
+            </tr>
+            <tr>
+              <td>Bloco de Código Cercado</td>
+              <td>
+                <pre>
+```
+  {
+    "name": "John Smith"
+  }
+```
+                </pre>
+              </td>
+            </tr>
+            <tr>
+              <td>Nota de Rodapé</td>
+              <td>[^1]</td>
+            </tr>
+            <tr>
+              <td>ID de Cabeçalho</td>
+              <td>
+                <p>### Cabeçalho</p>
+                <p>{#id-customizado}</p>
+              </td>
+            </tr>
+            <tr>
+              <td>Lista de Definição</td>
+              <td>
+                <p>Termo</p>
+                <p>: Definição</p>
+              </td>
+            </tr>
+            <tr>
+              <td>Texto Riscado</td>
+              <td>~~Texto riscado~~</td>
+            </tr>
+            <tr>
+              <td>Lista de Tarefas</td>
+              <td>
+                <p>- [x] Tarefa 1</p>
+                <p>- [ ] Tarefa 2</p>
+                <p>- [ ] Tarefa 3</p>
+              </td>
+            </tr>
+            <tr>
+              <td>Emoji</td>
+              <td>:emoji:</td>
+            </tr>
+            <tr>
+              <td>Destaque</td>
+              <td>==Texto destacado==</td>
+            </tr>
+            <tr>
+              <td>Subscrito</td>
+              <td>H~2~0</td>
+            </tr>
+            <tr>
+              <td>Sobrescrito</td>
+              <td>X^2^</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+    <footer>
+      <p>Licença MIT</p>
+      <a href="https://github.com/zoppy/md-cheat-sheet" target="_blank">
+        <img src="img/github.svg" alt="" />
+      </a>
+    </footer>
+  </body>
+</html>

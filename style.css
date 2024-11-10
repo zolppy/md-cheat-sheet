@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --black: #000;
+  --blue-500: #3b82f6;
+  --neutral-500: #737373;
+  --neutral-700: #404040;
+  --white: #fff;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: var(--neutral-700);
+  color: var(--white);
+  font-family: sans-serif;
+  font-size: 1rem;
+}
+
+header {
+  align-items: center;
+  background-color: var(--black);
+  column-gap: 1em;
+  display: flex;
+  height: 100px;
+  left: 0;
+  padding: 1em;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+header img {
+  width: 100px;
+}
+
+header h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin-inline: auto;
+  padding: 1em;
+  row-gap: 2em;
+  width: clamp(320px, 90%, 620px);
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1em;
+}
+
+section:first-child {
+  margin-top: 100px;
+}
+
+section h2 {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+thead tr {
+  background-color: var(--neutral-500);
+}
+
+th,
+td {
+  border: 1px solid white;
+  line-height: 1.5;
+  padding: 0.5em;
+}
+
+tbody td:first-child {
+  color: var(--blue-500);
+}
+
+tbody td:last-child {
+  white-space: nowrap;
+}
+
+footer {
+  align-items: center;
+  background-color: var(--black);
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+}
